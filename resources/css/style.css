@@ -552,16 +552,86 @@ input[type=checkbox]{
 }
 
 
+/*------------------------------------------------*/
+/* FOOTER */
+/*------------------------------------------------*/
+
+footer{
+    background-color: rgba(25, 21, 21, 0.96);
+    padding: 50px;
+}
 
 
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 170%; 
+}
+.footer-nav li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 90%; 
+}
 
 
+.footer-nav li:last-child,
+.social-links li:last-child{
+    display: inline-block;
+    margin-right: 0;
+}
 
 
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  border-bottom: 0;
+    color: #868484;
+    transition: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:link,
+.social-links li a:visited{
+    color: #ddd; 
+}
+.social-links li a:hover,
+.social-links li a:active{
+    
+    transition: color -.2s;
+}
 
 
+.social-links li:nth-child(1) a:hover,
+.social-links li:nth-child(1) a:active{
+    color: #3b5999; 
+}
 
-
-
-
-
+.social-links li:nth-child(2) a:hover,
+.social-links li:nth-child(2) a:active{
+    color: #55acee; 
+}
+.social-links li:nth-child(3) a:hover,
+.social-links li:nth-child(3) a:active{
+    color: #dd4b39; 
+}
+.social-links li:nth-child(4) a:hover,
+.social-links li:nth-child(4) a:active{
+    color: #e4405f; 
+}
+footer p{
+    color: 3868484;
+    text-align: center;
+    font: 120%;
+    margin-top: 30px;
+    
+}
