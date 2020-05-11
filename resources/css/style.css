@@ -93,7 +93,7 @@ h2:after{
     height: 3px;
     background-color: #e67e22;
     content: '';
-    width: 150px;
+    width: 80px;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -330,7 +330,7 @@ header{
 /* HOW IT WORKS */
 /*------------------------------------------------*/
 .section-steps{
-    background-color: #efe9e9;
+    background-color: #f4f4f4;
 }
 .steps-box{
    
@@ -416,14 +416,6 @@ header{
     background-attachment: fixed;
 }
 
-/*
-.cust-img{
-    padding: 0;
-    margin-right: 20px;
-    width: 50%;
-    height: auto
-    
-}*/
 blockquote{
     padding: 2%;
     font-style: italic;
@@ -461,3 +453,62 @@ cite img{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+
+/*------------------------------------------------*/
+/* TESTIMONIALS */
+/*------------------------------------------------*/
+
+
+.section-plans{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 2px 2px 2px #9b9494;
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #eae8e8;
+    
+}
+.plan-box div:first-child{
+    text-align: center; 
+    background-color: #fcfcfc;
+    border-top-right-radius: 5px;
+}
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+.plan-price{
+    font-size: 350%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+    
+}
+.plan-price span{
+    font-size: 40%;
+    font-weight: 300;
+    color: #e67e22;
+}
+.plane-price-meal{
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+
+
+
+
